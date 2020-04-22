@@ -1,5 +1,6 @@
 package _7;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class getMaxWindow {
@@ -28,8 +29,9 @@ public class getMaxWindow {
     public static void main(String[] args) {
         int[] result;
         result = getMaxWindow.findMaxWindow(new int[]{4,3,5,4,3,3,6,7}, 3);
-        for (int i=0; i < result.length; i++){
-            System.out.println(result[i]);
-        }
+        System.out.println(Arrays.toString(result));
+//        for (int i=0; i < result.length; i++){
+//            System.out.println(result[i]);
+//        }
     }
 }
